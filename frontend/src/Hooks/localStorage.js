@@ -11,7 +11,7 @@ export default function LocalStorage(key,init) {
     const [value,setValue]=useState(()=>{
         
         const jsonV=localStorage.getItem(prefixed)
-        // SE EXISTIR UMA VALOR NO LOCALSTORAGE IRÁ ADICIOAR AO VALUE
+        // SE EXISTIR UM VALOR NO LOCALSTORAGE IRÁ ADICIONAR AO VALUE
         // O VALOR DO LOCALSTORAGE
         if(jsonV !== null)return JSON.parse(jsonV)
         
