@@ -2,7 +2,7 @@
 
 <h3 align="center">
 
-DAVICOMMERCE é um projeto Open Source desenvolvido  utilizando as tecnologias Javascript, Node, MongoDB e React.
+ChatMessage é um projeto Open Source desenvolvido  utilizando as tecnologias Javascript, Node, Socket.io e React.
 
 </h3>
 
